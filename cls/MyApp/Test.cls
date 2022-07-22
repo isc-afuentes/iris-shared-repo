@@ -1,7 +1,8 @@
 Class MyApp.Test Extends (%Persistent, %XML.Adaptor)
 {
 
-Property Name As %String;
+/// change
+Property Name As %String(MAXLEN = "");
 
 Storage Default
 {
