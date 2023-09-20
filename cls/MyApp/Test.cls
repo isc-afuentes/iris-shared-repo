@@ -1,6 +1,8 @@
 Class MyApp.Test Extends %Persistent
 {
 
+// name
+
 Property Name As %String;
 
 Property Surname As %String;
